@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/intro.css">
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            document.getElementById("header").style.height = "4%";
+            document.getElementById("navbar").style.marginLeft = "30%";
+            document.getElementById("logo").style.display = "none";
+          } else {
+            document.getElementById("header").style.height = "8%";
+            document.getElementById("logo").style.display = "flex";
+            document.getElementById("navbar").style.marginLeft = "0%";
+          }
+        }
+    </script>
+</head>
+<body>
+    <div class="header-container">
+        <div id="banner-contact">
+            <span >Liên hệ tư vấn : </span><span ><img src="../assets/location.png"/>273 Mỹ Hội Đông, An Giang</span><span><img src="../assets/phone.png" />0123456789 (Ms. Diệu Tiên)</span><span><img src="../assets/phone.png" />0123456789 (Mr. Tùng)</span>
+        </div>
+        <header id="header">
+            <div style="display:flex; justify-content: center; align-items: center; width: 100%; ">
+            <div id="logo" onclick="Home()">
+                <img src="https://mir-s3-cdn-cf.behance.net/user/276/bd566661043453.597b8b4c68b4b.jpg" style="display:inline-block"/>
+                <p>The Zoom</p>
+            </div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="../index.html" >TRANG CHỦ</a></li>
+                    <li><a href="./service.html">DỊCH VỤ</a> </li>
+                    <li><a href="./contact.html">LIÊN HỆ</a></li>              
+                    <li><a href="./intro.html">GIỚI THIỆU</a></Link></li>
+                    <li><a href="">GÓC CHIA SẼ</a></li>
+                    <li><a href="./login.html">ĐĂNG NHẬP</a></li>
+                </ul>
+            </div>
+            </div>
+        </header>
+    </div>
+    <div class="body-intro">
+            <div class="intro-container1" >
+                <img src="../assets/computer.jpg">
+            </div>
+            <div class="intro-container2">
+                <p>
+                    Thông thường, người có nhu cầu thiết kế logo rất quan tâm đến yếu tố giá cả. Thường nhiều người nghĩ giá thiết kế logo là cố định. Nhưng thực tế thì không phải, logo khác một sản phẩm phần cứng như máy tính, điện thoại, Tivi,… vốn là những sản phẩm phần cứng. Những sản phẩm phần cứng thì dễ định giá được thông qua thông số và công năng, kích thước.
+                </p>
+                <h1>
+                    Bạn đang gặp khó khăn trong việc thiết kế Logo cho doanh nghiệp mình?!
+                </h1>
+
+                <p>
+                    Logo rất khác một sản phẩm hữu hình như máy tính, xem máy hay điện thoại,… Logo là một sản phẩm phần mềm, một sản phẩm sáng tạo, mang tính thẩm mỹ, gắn liền với hiệu quả của hoạt động kinh doanh, marketing,…
+                </p>
+
+                <p>
+                    Trong thế giới kinh doanh siêu cạnh tranh ngày nay, một biểu tượng đẹp, ấn tượng, chuyên nghiệp và hợp thời đại luôn là điều cần thiết cho sự thành công của mỗi công ty, doanh nghiệp.
+                </p>
+            </div>
+            <div class="intro-container3">
+                <div class="item-cont">
+                    <p class="cont-number">1</p>
+                    <h3>Giá cả cực ưu đãi</h3>
+                    <p>Giá thiết kế logo thường vào khoảng 1.500.000 - 3.000.000 VNĐ là phổ biến, cho 3 - 5 mẫu thiết kế logo chọn 1 và chỉnh sửa gần như không giới hạn</p>
+                </div>
+                <div class="item-cont">
+                    <p class="cont-number">2</p>
+                    <h3>Bảo hành trọn đời</h3>
+                    <p>Có những mẫu logo thì đơn vị thiết kế chỉ phải sửa 1, 2 lần là đúng ý khách hàng. Nhưng cũng có mẫu logo phải sửa hàng chục lần. Bỏ ra nhiều công sức và thời gian hơn nên chi phí cũng thường cao hơn vậy</p>
+                </div>
+                <div class="item-cont">
+                    <p class="cont-number">3</p>
+                    <h3>Thiết kế độc quyền</h3>
+                    <p>Thương hiệu - Đây là một từ có vai trò quan trọng trong kinh doanh. Một đơn vị có thương hiệu (thường đồng nghĩa với thương hiệu tốt) sẽ kinh doanh tốt hơn các công ty, shop, cá nhân không có thương hiệu</p>
+                </div>
+            </div>
+
+            <div class="intro-container2">
+                <p>
+                    Thanh Tùng - Công ty thiết kế website với kinh nghiệm gần 10 năm trong lĩnh vực, đã cho ra đời hàng ngàn mẫu logo sáng tạo khác nhau đảm bảo sẽ mang đến cho bạn những thiết kế logo ấn tượng trong khoảng chi phí rẻ nhất, phù hợp với ý tưởng cũng như định hướng của khách hàng.
+                </p>
+            </div>
+    </div>
+    <div id="footer">
+        <footer class="footer-distributed">       
+                <div class="footer-left">    
+                    <img src="https://mir-s3-cdn-cf.behance.net/user/276/bd566661043453.597b8b4c68b4b.jpg" style="width:130px; border:2px solid black"/>   
+                    <h3>Thai zoom<span>Cop</span></h3>  
+                    <p class="footer-links">
+                        <a href="#">Home</a>                            
+                        <a href="#">Blog</a>                      
+                        <a href="#">Pricing</a>                       
+                        <a href="#">About</a>                           
+                        <a href="#">Faq</a>                           
+                        <a href="#">Contact</a>
+                    </p>        
+                    <p class="footer-company-name">Design By Zoom Company © 2015</p>
+                </div>       
+                <div class="footer-center">       
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>123 3/2 street</span> Ninh Kiều, Cần Thơ</p>
+                    </div>        
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+84 0395996992</p>
+                    </div>        
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">nguyennhithai4620@gmail.com</a></p>
+                    </div>       
+                </div>       
+                <div class="footer-right">        
+                    <p class="footer-company-about">
+                        <span>About the company</span>
+                        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                    </p>        
+                    <div class="footer-icons">      
+                        <a href="https://www.facebook.com/profile.php?id=100012416316231" target="_blank"><img src="./assets/facebook-square-brands.svg"></img></a>
+                        <a href="https://github.com/nhithai4620" target="_blank"><img src="./assets/github-square-brands.svg"></img></a>
+                        <a href="https://www.instagram.com/nhithai46200/?fbclid=IwAR16w1ZijZZnIhMe7xTJQZnGbHsVgWSetx59cahfMvdkIJxMFmFiFSAdmB8" target="_blank"><img src="./assets/instagram-square-brands.svg"></img></a>
+                        <a href="https://www.linkedin.com/in/nh%C4%A9-th%C3%A1i-nguy%E1%BB%85n-3997191b8/" target="_blank"><img src="./assets/linkedin-brands.svg"></img></a>      
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>

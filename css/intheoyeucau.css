@@ -1,0 +1,67 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+#container-100000{
+    background-color: rgba(196, 192, 192, 0.741);
+    padding: 100px;
+}
+
+#head-banner{
+    color: blue;
+    width: 100%;
+}
+
+
+#container-100001 h3{
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}
+
+#container-100001 p{
+    font-size: 23px;
+}
+
+.container-100003{
+    padding: 50px;
+}
+
+.container-100003 img{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 182, 184);
+}
+
+.container-100003 p{
+    text-align: center;
+}
+
+
+.container-100004{
+    padding: 30px;
+}
+
+.container-100004 button{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+   border-radius: 10px;
+   padding: 20px;
+}
+
+.container-100005 table{
+    width: 100%;
+}
+
+.container-100005 table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,497 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    height:100%;
+    width:100%;
+}
+
+.header{
+    width: 100%;
+    min-height: 70px;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 2px 5px 7px rgba(214, 212, 212, 0.4);
+}
+
+.navbar{
+    flex: 50%;
+    padding-top:60px;
+}
+
+.navbar ul{
+    height: 40px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+}
+
+.navbar ul li a:hover{
+    color: lightcoral;
+}
+
+.logo{
+    padding-top:20px;
+    flex: 50%;
+    display: flex;
+    padding-left: 50px;
+}
+.logo p{
+    margin-top: 30px;
+    color: lightcoral;
+    font-size: 30px;
+}
+
+.logo img{
+    padding: 0px;
+    margin-right: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    width:90px;
+    height: 90px;
+}
+
+.login {
+    position: relative;
+    width: 450px;
+    background:white;
+    border:2px solid #333;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.login h1{
+    color: crimson;
+    text-align:center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.login form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin:30px 0;
+}
+
+.txt_field input{
+    width:100%;
+    padding:0 5px;
+    height:40px;
+    font-size: 16px;
+    border:none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+   position: absolute;
+   top: 50%;
+   left: 5px;
+   color: #adadad; 
+   transform: translateY(-50%);
+   font-size:16px;
+   pointer-events: none;
+   transition: .5s;
+}
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top:40px;
+    left:0;
+    width: 0%;
+    height:2px;
+    background: lightcoral;
+    transition: .5s;
+}
+
+.txt_field input:focus ~label,
+.txt_field input:valid ~label{
+    top: -5px;
+    color: lightcoral;
+}
+
+.txt_field input:focus ~span::before,
+.txt_field input:valid ~span::before{
+    width: 100%;
+}
+
+.pass{
+    margin:-5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width:100%;
+    height:50px;
+    border: 1px solid;
+    background: lightcoral;
+    border-radius: 25px;
+    font-size: 18px;
+    color:#e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: lightcoral;
+    transition: .5s;
+}
+
+.signup_link{
+    margin:30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.signup_link a {
+    color:crimson;
+    text-decoration: none;
+} 
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-distributed{
+	background:#a7a7a6;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    opacity: 0.7;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.footer-distributed .footer-left{
+	width: 40%;
+    height: 300px;
+}
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:lightcoral;
+}
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  	font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  black;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+@media (max-width: 1400px) {
+    .navbar ul li a{
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .logo{
+        flex: 40%;
+        padding-left: 15px;
+    }
+    .logo p{
+        margin-top: 30px;
+        color: lightcoral;
+        font-size: 24px;
+    }
+    .logo img{
+        margin-right: 20px;
+        width:80px;
+        height: 80px;
+    }
+
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+@media (max-width: 1000px) {
+    .navbar ul li a{
+        font-size: 15px;
+        padding: 0 7px;
+    }
+    .logo{
+        flex: 30%;
+        padding-left: 10px;
+    }
+    .logo p{
+        margin-top: 30px;
+        color: lightcoral;
+        font-size: 20px;
+    }
+    .logo img{
+        margin-right: 15px;
+        width:60px;
+        height: 60px;
+    }
+    .login {
+        width: 300px;
+    }
+    .login h1{
+        font-size: 17px;
+    }
+    
+    .login form {
+        padding: 0 20px;
+    }
+    
+    .txt_field input{
+        width:100%;
+        padding:0 4px;
+        height:30px;
+        font-size: 13px;
+    }
+    input[type="submit"]{
+        width:100%;
+        height:30px;
+        font-size: 14px;
+    }   
+
+    .signup_link{
+        font-size: 13px;
+    }
+    
+    .pass{
+        font-size: 14px;
+    }
+
+    .txt_field label{
+        font-size: 11px;
+    }
+
+    .signup_link{
+        font-size: 11px;
+ 
+    }
+
+}
+
+
+@media (max-width: 760px) {
+    .navbar{
+        padding-top:30px;
+    }
+    .navbar ul li a{
+        font-size: 5px;
+        padding: 0 1px;
+    }
+    .logo{
+        flex: 40%;
+        padding-left:1px;
+    }
+    .logo img{
+        margin-right: 2px;
+        width:30px;
+        height: 30px;
+    }
+    .logo p{
+        margin-top: 20px;
+        font-size: 8px;
+    }
+    .login {
+        width: 200px;
+        height: 300px;
+    }
+    .login h1{
+        font-size: 13px;
+    }
+    
+    .login form {
+        padding: 0 10px;
+    }
+    
+    .txt_field input{
+        padding:0 4px;
+        height:20px;
+        font-size: 9px;
+    }
+    .pass{
+        font-size: 10px;
+    }
+    .txt_field label{
+        font-size: 9px;
+    }
+    .signup_link{
+        font-size: 9px;
+ 
+    }
+    input[type="submit"]{
+        font-size: 12px;
+    }
+ 
+}
