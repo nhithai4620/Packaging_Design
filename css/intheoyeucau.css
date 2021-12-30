@@ -1,5 +1,5 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
 
@@ -64,4 +64,19 @@
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
+    border: 2px solid rgba(74, 176, 213, 0.701);
+}
+
+.container-100006 h3{
+    color: rgb(37, 104, 238);
+}
+
+.container-100006 .item{
+    margin: 5px;
+}
+
+.container-100006 .item img{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
 }

@@ -1,9 +1,8 @@
+
 *{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .body{
@@ -370,6 +369,58 @@
     background-position: center;
 }
 
+.infor{
+    padding: 100px;
+    background-image: url("../assets/infor-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.infor-1 h1{
+    padding: 20px;
+    text-align: center;
+    color: #2696E9;
+}
+
+.infor-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.infor-items .item{
+    padding: 10px;
+    margin: 3px;
+    width: 340px;
+    min-height: 290px;
+    height: 100%;
+    background-color: white;
+}
+
+.item i{
+    font-size: 80px;
+    text-align: center;
+    color: #2696E9;
+    width: 100%;
+    padding: 10px;
+}
+
+.item h3{
+    text-align: center;
+    color: #2696E9;
+    font-size: 22px;
+}
+
+.item p{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
 
 
 
@@ -531,7 +582,7 @@
     width: 100%;
     display:flex;
     justify-content:space-around;
-    margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 .number img{
