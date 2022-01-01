@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Montserrat;
 }
 
 .body{
@@ -69,7 +70,7 @@
 #navbar ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 15px;
     color: #333;
     font-weight: 400;
     padding: 5px;
@@ -93,7 +94,7 @@
 }
 #logo p{
     color: #2f89cb;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 30px;
 }
 
@@ -192,11 +193,11 @@
 .introduce{
     display: flex;
     width:100%;
-    margin-top: 4%;
+    margin-top: 40px;
     height: 14%;
     height: 425px;
     flex-direction: row;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%;
 }
 
@@ -204,12 +205,19 @@
     flex: 50%;
     padding-left: 10%;
     padding-right: 5%;
-
 }
 
 .introduce-content span{
     color:red;
+    font-size: 20px;
+    text-align: justify;
 }
+
+.introduce-content p{
+    font-size: 20px;
+    text-align: justify;
+}
+
 .introduce-content h5{
     text-align: center;
     font-size: 25px;
@@ -274,17 +282,19 @@
 
 .service{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 40px;
     padding-bottom: 100px;
     background-image: url("../assets/background002.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.service p {
+.service h2 {
     text-align: center;
     padding: 20px;
     font-size: 28px;
+    font-family: "Montserrat script=latin rev=1";
+    font-weight: bold;
 }
 
 .flex-container {
@@ -320,9 +330,21 @@
     display: block;
     object-fit: cover;
 }
+.card-content p{
+    text-align: justify;
+    font-size: 18px;
+}
+
 .card h3{
     text-transform: uppercase;
-    margin: 3px 0;
+    text-align: center;
+    padding: 3px;
+}
+
+.card p{
+    text-align: justify;
+    padding: 3px;
+    font-size: 20px;
 }
 
 .card button{
@@ -338,6 +360,7 @@
     letter-spacing: 2px;
     margin: 15px 0;
     border-radius: 20px;
+    font-weight: bold;
 
 }
 
@@ -370,8 +393,8 @@
 }
 
 .infor{
-    padding: 100px;
-    background-image: url("../assets/infor-bg.jpg");
+    padding: 50px;
+    background-image: url("../assets/banner\ giá\ trị-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -381,7 +404,7 @@
 .infor-1 h1{
     padding: 20px;
     text-align: center;
-    color: #2696E9;
+    color: white;
 }
 
 .infor-items{
@@ -392,10 +415,10 @@
 }
 
 .infor-items .item{
-    padding: 10px;
+    padding: 5px;
     margin: 3px;
     width: 340px;
-    min-height: 290px;
+    min-height: 300px;
     height: 100%;
     background-color: white;
 }
@@ -403,24 +426,32 @@
 .item i{
     font-size: 80px;
     text-align: center;
-    color: #2696E9;
+    color: rgb(89, 120, 187);
     width: 100%;
     padding: 10px;
 }
 
 .item h3{
     text-align: center;
-    color: #2696E9;
+    color: rgb(89, 120, 187);
     font-size: 22px;
 }
 
 .item p{
-    padding: 20px;
+    padding: 15px;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
+    color: rgb(89, 120, 187);
 }
 
+.item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
 
 
 

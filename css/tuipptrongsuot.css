@@ -3,11 +3,12 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
+
 #container-100000{
-    background-color: rgba(196, 192, 192, 0.741);
-    padding: 100px;
+    background-color: rgb(245, 245, 245);
 }
 
 #container-100001 h3{
@@ -19,13 +20,55 @@
     width: 100%;
 }
 
+.container-100001{
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.container-100002{
+    display: flex;
+    height: 100%;
+}
+
+.container-100002 > div{
+    background-color: white;
+    margin-left: 20px;
+}
+
 #container-100002{
     display: flex;
+    flex: 85%;
+}
+
+.vertical-banner{
+    flex: 15%;
+    padding: 10px;
+}
+
+.vertical-banner img{
+    padding-top: 10px;
+}
+
+#vertical-banner-title{
+    background-color: #2f89cb;
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+    align-items: center;
+}
+
+#vertical-banner-title h5{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#vertical-banner-title span{
+    padding-left: 10px;
 }
 
 #container-100002 > div{
     flex: 50%;
-    margin: 30px;
+    margin: 20px;
     height: 100%;
 }
 
@@ -53,9 +96,9 @@
 }
 
 .container-100003 button{
-    margin: 20px;
-    padding: 10px;
-    width: 200px;
+    margin: 10px;
+    padding: 13px;
+    width: 230px;
 }
 
 .shape{
@@ -134,4 +177,9 @@
     width: 300px;
     height: 300px;
     margin: 30px;
+}
+
+#container-100001{
+    background-color: rgba(230, 227, 227, 0.762);
+    padding:30px 70px;
 }
