@@ -39,8 +39,9 @@
 
 
 .shape h3{
-    font-size: 20px;
-    padding: 5px;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
     text-align: left;
 }
 
@@ -87,6 +88,63 @@
 
 .flex-items{
     padding: 5px;
+}
+
+.flex-items a >div{
+    text-decoration: none;
     text-align: center;
+}
+
+.flex-items >div:hover{
+    text-decoration: none;
+}
+
+.right-arrow {
+	display: inline-block;
+	position: relative;
+	background: #2f89cb;
+	padding: 10px;
+    color: white;
+    font-weight: 500;
+    margin-right: 43px;
+}
+.right-arrow:after {
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -22px;
+	width: 0;
+	height: 0;
+	border-top: 22px solid transparent;
+	border-right: 22px solid transparent;
+	border-bottom: 22px solid transparent;
+	border-left: 22px solid #2f89cb;
+}
+
+.right-arrow:before {
+	content: '';
+	display: block;  
+	position: absolute;
+	right: 100%;
+	top: 50%;
+	margin-top: -22px;
+	width: 0;
+	height: 0;
+	border-top: 22px solid #2f89cb;
+	border-right: 22px solid #2f89cb;
+	border-bottom: 22px solid #2f89cb;
+	border-left: 22px solid transparent;
+}
+
+.right-arrow:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+.web-path{
+    margin: 30px 0 0 70px;
 }
 
