@@ -12,18 +12,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script>
-        // When the user scrolls down 50px from the top of the document, resize the header's font size
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-            document.getElementById("header").style.height = "4%";
-            document.getElementById("navbar").style.marginLeft = "30%";
-            document.getElementById("logo").style.display = "none";
+        function changeServiceTuiXop(){
+          window.location.href = "./tuixop.html";
+          
+        }
+  
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
           } else {
-            document.getElementById("header").style.height = "8%";
-            document.getElementById("logo").style.display = "flex";
-            document.getElementById("navbar").style.marginLeft = "0%";
+            x.className = "topnav";
           }
         }
     </script>
@@ -34,21 +33,34 @@
             <span >Liên hệ tư vấn : </span><span ><img src="../assets/location.png"/>273 Mỹ Hội Đông, An Giang</span><span><img src="../assets/phone.png" />0123456789 (Ms. Diệu Tiên)</span><span><img src="../assets/phone.png" />0123456789 (Mr. Tùng)</span>
         </div>
         <header id="header">
-            <div style="display:flex; justify-content: center; align-items: center; width: 100%; ">
             <div id="logo" onclick="Home()">
-                <img src="https://mir-s3-cdn-cf.behance.net/user/276/bd566661043453.597b8b4c68b4b.jpg" style="display:inline-block"/>
-                <p>The Zoom</p>
+                <img src="../assets/Logo TNP.png"/>
             </div>
-            <div id="navbar">
-                <ul>
-                    <li><a href="../index.html" >TRANG CHỦ</a></li>
-                    <li><a href="./service.html">DỊCH VỤ</a> </li>
-                    <li><a href="./contact.html">LIÊN HỆ</a></li>              
-                    <li><a href="./intro.html">GIỚI THIỆU</a></Link></li>
-                    <li><a href="">GÓC CHIA SẼ</a></li>
-                    <li><a href="./login.html">ĐĂNG NHẬP</a></li>
-                </ul>
-            </div>
+            <div id="navbar-main">
+                <div id="navbar-search">
+                  <div id="item1"> FIND YOUR NEARLEST STOCKIST <i class="far fa-shopping-cart"></i></div>
+                  <div id="item2"> Type your keyword here.. <i class="far fa-search"></i></div>
+                </div>
+                <div class="topnav001" id="myTopnav001">
+                  <a href="../index.html" class="active001">TRANG CHỦ</a>
+                  <div class="dropdown001">
+                    <button class="dropbtn001">DỊCH VỤ 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content001">
+                      <a href="../section/tuixop.html">Túi xốp</a>
+                      <a href="#">Bao bì phân bón</a>
+                      <a href="#">Bao bì thực phẩm</a>
+                      <a href="#">Túi zip</a>
+                      <a href="#">Bao bì giấy</a>
+                    </div>
+                  </div> 
+                  <a href="../section/contact.html">LIÊN HỆ</a>
+                  <a href="../section/intro.html">GIỚI THIỆU</a>
+                  <a href="../section/contact.html">VỀ CHÚNG TÔI</a>
+                  <a href="../section/login.html">ĐĂNG NHẬP</a>
+                  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
             </div>
         </header>
     </div>
@@ -212,7 +224,7 @@
     <div id="footer">
         <footer class="footer-distributed">       
                 <div class="footer-left">    
-                    <img src="https://mir-s3-cdn-cf.behance.net/user/276/bd566661043453.597b8b4c68b4b.jpg" style="width:130px; border:2px solid black"/>   
+                    <img src="../assets/Logo TNP.png" style="width:160px;"/>   
                     <h3>Thai zoom<span>Cop</span></h3>  
                     <p class="footer-links">
                         <a href="#">Home</a>                            

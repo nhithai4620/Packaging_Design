@@ -111,9 +111,11 @@
 }
 
 .container-100003 button{
-    margin: 5px;
-    padding: 16px;
-    width: 240px;
+    margin: 10px;
+    padding: 23px 15px;
+    width: 46%;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .shape{
@@ -204,7 +206,6 @@
 }
 
 
-
 .right-arrow {
 	display: inline-block;
 	position: relative;
@@ -212,7 +213,7 @@
 	padding: 10px;
     color: white;
     font-weight: 500;
-    margin-right: 43px;
+    margin-right: 50px;
 }
 .right-arrow:after {
 	content: '';
