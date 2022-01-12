@@ -16,6 +16,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 #banner-contact{
@@ -76,14 +77,18 @@
     font-size: 16px;    
     border: none;
     outline: none;
-    color: #2696E9;
+    color:#2696E9;
     padding: 14px 8px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
     font-weight: 500;
 }
-  
+
+.dropbtn001 i{
+    color: #0bdd1d;
+}
+
 .dropdown-content001 {
     display: none;
     position: absolute;

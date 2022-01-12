@@ -51,14 +51,18 @@
 
 .shape{
     text-align:center;
-    background-color: #2f89cb;  
-    width:450px;
+    background-color: #2f89cb;
+    width: 500px;  
     height:60px;
     line-height:60px;
     color:white;
     position:relative;
     font-size: 20px;
     border-top-right-radius: 200px;
+}
+
+.shape01{
+    width: 400px; 
 }
 
 /* .shape::after{
@@ -112,7 +116,25 @@
     color: white;
     font-weight: 500;
     margin-right: 50px;
+    text-align: left;
 }
+
+.right-arrow:nth-child(2) {
+    background: #05b62f;
+}
+
+.right-arrow:nth-child(2):after {
+	border-left: 22px solid #05b62f;
+}
+
+.right-arrow:nth-child(2)::before {
+    border-top: 22px solid #05b62f;
+	border-right: 22px solid #05b62f;
+	border-bottom: 22px solid #05b62f;
+}
+
+
+
 .right-arrow:after {
 	content: '';
 	display: block;  

@@ -16,6 +16,10 @@
           window.location.href = "./tuixop.html";
           
         }
+
+        function Home(){
+            window.location.href = "../index.html";
+        }
   
         function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -44,8 +48,8 @@
                 <div class="topnav001" id="myTopnav001">
                   <a href="../index.html" class="active001">TRANG CHỦ</a>
                   <div class="dropdown001">
-                    <button class="dropbtn001">DỊCH VỤ 
-                      <i class="fa fa-caret-down"></i>
+                    <button id="buttonDv" class="dropbtn001">DỊCH VỤ 
+                        <i id="dropbtn000001" class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content001">
                       <a href="../section/tuixop.html">Túi xốp</a>
@@ -81,12 +85,23 @@
         </div>
     </div> -->
     <div id="container-100001" >
+        <div id="contact-fixed">
+            <div>
+              <i class="fab fa-facebook-messenger"></i>
+            </div>
+            <div>
+              <i class="far fa-phone-volume"></i>
+            </div>
+            <div>
+              <img src="../assets/zalo.png" alt="">
+            </div>
+          </div>
         <div class="container-100001">
             <h3 class="text-uppercase text-center">Túi xốp, nilon</h3>
             <div class="web-path">
                 <a href="../index.html" class="right-arrow">Trang chủ</a>
                 <a href="./tuixop.html" class="right-arrow">Túi xốp</a>
-                <a href="#" class="right-arrow">Túi nilon PE trong suốt</a>
+                <a href="#" class="right-arrow">Túi nilon PP trong suốt</a>
             </div>
             <div class="container-100002">
                 <div id="container-100002">
@@ -96,7 +111,7 @@
                         </div> 
                     </div>
                     <div class="container-100003">
-                        <h5 class="text-center">TÚI NILON PE TRONG SUỐT</h5>
+                        <h5 class="text-center">TÚI NILON PP TRONG SUỐT</h5>
                         <table class="table">
                             <tr class="table-info">
                                 <td>Giá</td>
@@ -144,8 +159,26 @@
                 </div>
             </div>
             <div id="container-100005" class="container-fluid">
-                <p>Túi nilon PP trong suốt là dạng túi trong suốt nhất so với chất liệu PE. Tuy nhiên chất liệu này hơi giòn và dễ nhăn hơn. Công ty ...... nhận in bao bì túi trong suốt cho khách hàng 10kg size có sẵn và công ty bao bì Khởi Phát nhận sản xuất theo yêu cầu về kích thước và độ dày của túi. </p>
-                <p>Liên hệ Trung Nam Phát để được tư vấn và thiết kế hoàn toàn miễn phí</p>
+                <p>Bạn chuẩn bị mở shop bán quần áo, giày dép, phụ kiện,…? Bạn muốn tạo ra ấn tượng và sự khác biệt ngay từ đầu? Bạn từng nghe đến loại <strong>túi ni lông trong suốt</strong>  chưa? Chắc chắn mẫu túi này sẽ giúp bạn tạo ấn tượng với khách hàng, tăng doanh thu đột biến và tạo ra những giá trị kinh doanh bền vững nhất</p>
+                <p>Túi PP là loại túi nilon trong suốt được làm từ hạt nhựa nguyên sinh PP (Polypropylene). Thường được sử dụng làm bao bì đóng gói hàng hóa. Túi nilon PP trong suốt là dạng túi trong suốt nhất so với chất liệu PE. Tuy nhiên chất liệu này hơi giòn và dễ nhăn hơn. </p>
+                <p>Công ty bao bì Trung Nam Phát nhận in bao bì túi trong suốt cho khách hàng 10kg size có sẵn và nhận sản xuất theo yêu cầu về kích thước và độ dày của túi.
+                    Liên hệ Trung Nam Phát để được tư vấn và thiết kế hoàn toàn miễn phí.
+                </p>
+            </div>
+
+            <div id="container-100005" class="container-fluid">
+                <p><strong>Ưu điểm vượt trội của túi PP:</strong></p>
+                <ul>
+                    <li>Túi PP trong suốt dễ dàng quan sát sản phẩm, nâng cao việc quảng bá hình ảnh sản phẩm </li>
+                    <li> Túi PP độ dai tốt, độ dày đa dạng có thể sản xuất các kích thước, độ dày mỏng khác nhau theo nhu cầu của người tiêu dùng.</li>
+                    <li>Bảo vệ tốt sản phẩm bên trong trước độ ẩm, không khí đáp ứng vai trò bảo quản tốt nhất. </li>
+                    <li>Túi trì hoãn sự bay hơi và mất nước giúp thực phẩm luôn tươi ngon. Túi PP có độ giãn cao nên sử dụng đựng nhiều mặt hàng không sợ bị rách</li>
+                    <li>Túi PP không độc hại</li>
+                    <li>Túi PP thân thiện với môi trường vì thời gian tồn tại trong tự nhiên với ngắn hơn túi PE</li>
+                    <li>Túi PP cứng hơn nên ít bị nhàu, ít bị kéo dãn</li>
+                    <li>Túi PP cho phép in hình ảnh chất lượng tốt, màu sắc rõ nét, tính thẩm mỹ cao.</li>
+                </ul>
+                
             </div>
 
             <div id="container-100005" class="container-fluid">
@@ -172,30 +205,29 @@
                             <td>26x40 cm</td>
                             <td>40 cái/kg</td>
                         </tr>
-                    </table>
-                    <table class="table">
                         <tr class="table-info">
-                            <th>STT</th>
-                            <th>Kích thước có sẳn</th>
-                            <th>Khoảng cái/kg</th>
-                        </tr>
-                        <tr>
                             <td>4</td>
                             <td>40x42 cm</td>
                             <td>33 cái/kg</td>
                         </tr>
-                        <tr class="table-info">
+                        <tr >
                             <td>5</td>
                             <td>35x50 cm</td>
                             <td>18 cái/kg</td>
                         </tr>
-                        <tr>
+                        <tr class="table-info">
                             <td>6 </td>
                             <td>40x60 cm</td>
                             <td>15 cái/kg</td>
                         </tr>
                     </table>
+
+                    <div class="container-100016">
+                        <img src="" alt="">
+                    </div>
+                
                 </div>
+                <p style="color: red;">Ngoài kích thước có sẵn chúng tôi nhận sản xuất mẫu theo yêu cầu với số lượng tối thiểu 50kg/ 1 size</p>
                 
             </div>
             <div id="container-100005" class="container-fluid">
@@ -203,15 +235,15 @@
                 <div class="container-100007">
                     <div>
                         <img src="" alt="">
-                        <p>Túi PP trong suốt đựng quần áo</p>
+                        <p style="text-align: center;">Túi PP trong suốt đựng quần áo</p>
                     </div>
                     <div>
                         <img src="" alt="">
-                        <p>Túi nilong trong suốt đựng mỹ phẩm</p>
+                        <p style="text-align: center;">Túi nilong trong suốt đựng mỹ phẩm</p>
                     </div>
                     <div>
                         <img src="" alt="">
-                        <p>Túi nilong trong suốt đựng ...</p>
+                        <p style="text-align: center;">Túi nilong trong suốt đựng ...</p>
                     </div>
                 </div>
             </div>
@@ -280,5 +312,15 @@
                 </div>
         </footer>
     </div>
+    <script>
+        var buttoncc = document.getElementById("buttonDv");
+        buttoncc.addEventListener("mouseenter", function(){
+          document.getElementById("dropbtn000001").className = "fa fa-caret-up";
+        });
+  
+        buttoncc.addEventListener("mouseleave", function(){
+          document.getElementById("dropbtn000001").className = "fa fa-caret-down";
+        });
+      </script>
 </body>
 </html>

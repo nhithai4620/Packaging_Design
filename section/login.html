@@ -17,6 +17,10 @@
         
       }
 
+      function Home(){
+            window.location.href = "../index.html";
+      }
+
       function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
@@ -44,8 +48,8 @@
             <div class="topnav001" id="myTopnav001">
               <a href="../index.html" class="active001">TRANG CHỦ</a>
               <div class="dropdown001">
-                <button class="dropbtn001">DỊCH VỤ 
-                  <i class="fa fa-caret-down"></i>
+                <button id="buttonDv" class="dropbtn001">DỊCH VỤ 
+                  <i id="dropbtn000001" class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content001">
                   <a href="../section/tuixop.html">Túi xốp</a>
@@ -129,5 +133,15 @@
                 </div>
         </footer>
     </div>
+    <script>
+      var buttoncc = document.getElementById("buttonDv");
+      buttoncc.addEventListener("mouseenter", function(){
+        document.getElementById("dropbtn000001").className = "fa fa-caret-up";
+      });
+
+      buttoncc.addEventListener("mouseleave", function(){
+        document.getElementById("dropbtn000001").className = "fa fa-caret-down";
+      });
+    </script>
 </body>
 </html>

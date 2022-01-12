@@ -16,6 +16,10 @@
           window.location.href = "./tuixop.html";
           
         }
+
+        function Home(){
+            window.location.href = "../index.html";
+        }
   
         function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -44,8 +48,8 @@
                 <div class="topnav001" id="myTopnav001">
                   <a href="../index.html" class="active001">TRANG CHỦ</a>
                   <div class="dropdown001">
-                    <button class="dropbtn001">DỊCH VỤ 
-                      <i class="fa fa-caret-down"></i>
+                    <button id="buttonDv" class="dropbtn001">DỊCH VỤ 
+                        <i id="dropbtn000001" class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content001">
                       <a href="../section/tuixop.html">Túi xốp</a>
@@ -64,6 +68,17 @@
             </div>
         </header>
     </div>
+    <div id="contact-fixed">
+        <div>
+          <i class="fab fa-facebook-messenger"></i>
+        </div>
+        <div>
+          <i class="far fa-phone-volume"></i>
+        </div>
+        <div>
+          <img src="../assets/zalo.png" alt="">
+        </div>
+      </div>
     <div id="container-100000" class="container-fluid main-container">
         <div id="head-banner" class="row align-items-center">
             <div class="col medium-6 small-12 large-6">
@@ -83,8 +98,8 @@
     
     <div class="container-100001 container-100001">
         <div class="web-path">
-            <a href="../index.html" class="right-arrow">Trang chủ</a>
-            <a href="#" class="right-arrow">Túi xốp</a>
+            <a href="../index.html" class="path1 right-arrow">Trang chủ</a>
+            <a href="#" class="path2 right-arrow">Túi xốp</a>
         </div>
 
         <div class="container-fluid">
@@ -98,9 +113,9 @@
         </div>
         <div class="container-100002">
             <div class="container-100003"> 
-                <div class="shape">
+                <div class="shape01 shape">
                 <h3>
-                    IN TÚI XỐP - NILON THEO<br/>
+                    IN TÚI XỐP - NILON <br/> THEO
                 MẪU KÍCH THƯỚC CÓ SẴN
                 </h3>
                 </div>
@@ -137,7 +152,7 @@
             <div class="container-100003">
                 <div class="shape">
                     <h3>
-                    IN TÚI XỐP - NILON THEO KÍCH THƯỚC,
+                    IN TÚI XỐP - NILON <br/> THEO KÍCH THƯỚC,
                     MÀU SẮC, CHẤT LIỆU YÊU CẦU
                     </h3>
                 </div>
@@ -218,5 +233,15 @@
                 </div>
         </footer>
     </div>
+    <script>
+        var buttoncc = document.getElementById("buttonDv");
+        buttoncc.addEventListener("mouseenter", function(){
+          document.getElementById("dropbtn000001").className = "fa fa-caret-up";
+        });
+  
+        buttoncc.addEventListener("mouseleave", function(){
+          document.getElementById("dropbtn000001").className = "fa fa-caret-down";
+        });
+      </script>
 </body>
 </html>
