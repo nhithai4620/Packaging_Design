@@ -82,9 +82,9 @@
 
 .container-100013{
     width: 97%;
-    height: 550px;
-    margin-top: 30px;
+    height: 100%;
     margin-left: 2%;
+    padding-bottom: 20px;
 }
 
 .container-100003{
@@ -103,7 +103,7 @@
 .container-100003 table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -117,8 +117,8 @@
 
 .container-100003 button{
     margin: 10px;
-    padding: 23px 15px;
-    width: 46%;
+    padding: 20px 15px;
+    width: 42%;
     font-weight: 600;
     font-size: 20px;
 }
@@ -141,10 +141,6 @@
     border-bottom: 2px solid rgb(8, 176, 61);
 }
 
-#container-100005{
-    padding: 20px;
-    margin-left: 50px;
-}
 
 #container-100005 p,ul{
     text-align: justify;
@@ -159,7 +155,7 @@
 
 #container-100005{
     padding: 20px;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 .container-100016 {
