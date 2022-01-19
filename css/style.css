@@ -85,6 +85,10 @@
     font-weight: 500;
 }
 
+.dropbtn001:hover {
+    color: #0bdd1d;
+}
+
 .dropbtn001 i{
     color: #0bdd1d;
 }
@@ -109,8 +113,7 @@
 }
   
 .topnav001 a:hover, .dropdown001:hover .dropbtn001 {
-    background-color: #2696E9;
-    color: white;
+
     text-decoration: none;
 }
   
