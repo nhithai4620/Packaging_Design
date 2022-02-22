@@ -56,6 +56,17 @@
    padding: 20px;
 }
 
+
+.container-1000051 ul li{
+    font-size: 20px;
+}
+
+.container-100007-image{
+    width: 1160px;
+    height: 400px;
+    align-items: center;
+}
+
 .container-100005 table{
     width: 100%;
 }
