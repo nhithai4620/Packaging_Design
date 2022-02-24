@@ -158,6 +158,11 @@
     padding-left: 50px;
 }
 
+
+#container-100005 p:first-child{
+    font-size: 25px;
+}
+
 .container-100016 {
     width: 40%;
 }
