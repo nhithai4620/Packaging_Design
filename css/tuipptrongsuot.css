@@ -95,7 +95,6 @@
     display: block;
     width: 100%;
     height: 100%;
-    background-color: rgb(181, 177, 177);
     margin-right: auto;
     margin-left: auto;
 }
@@ -309,4 +308,27 @@
 .container-100007-image{
     width: 1305px;
     height: 450px;
+}
+
+#container-100010{
+    width: 100%;
+    display: flex;
+    padding: 110px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-100010 div {
+    flex: 30%; 
+    margin: 10px;
+    box-shadow: 2px 8px 20px rgb(201, 201, 201);
+}
+
+
+#container-100010 div img{
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    
 }
