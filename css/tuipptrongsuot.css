@@ -34,6 +34,7 @@
 .container-100002 > div{
     background-color: white;
     margin-left: 10px;
+    padding: 10px;
 }
 
 #container-100002{
@@ -81,20 +82,20 @@
 }
 
 .container-100013{
-    width: 97%;
+    width: 100%;
     height: 100%;
-    margin-left: 2%;
-    padding-bottom: 20px;
 }
 
 .container-100003{
-    margin-left: 10px;
+    padding: 5px;
+    background-color: white;
 }
 
 .container-100003 img{
+    margin-top: 5%;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 90%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -150,6 +151,10 @@
     list-style:circle;
     padding: 5px;
     margin-left: 20px;
+}
+
+#container-100005 table, tr, th, td{
+    font-size: 18px;
 }
 
 #container-100005{
@@ -313,22 +318,28 @@
 #container-100010{
     width: 100%;
     display: flex;
-    padding: 110px;
+    padding: 0 13%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 #container-100010 div {
-    flex: 30%; 
+    flex: 30%;
+    height: 450px; 
     margin: 10px;
     box-shadow: 2px 8px 20px rgb(201, 201, 201);
 }
 
 
 #container-100010 div img{
-    width: 350px;
-    height: 350px;
-    padding: 10px;
-    
+    margin-top: 0%;
+    width: 100%;
+    height: 85%;
+}
+
+#container-100010 div p{
+    text-align: center;
+    padding: 5% 0;
+    font-weight: 500;
 }
