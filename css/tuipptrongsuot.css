@@ -92,7 +92,6 @@
 }
 
 .container-100003 img{
-    margin-top: 5%;
     display: block;
     width: 100%;
     height: 90%;
@@ -158,8 +157,7 @@
 }
 
 #container-100005{
-    padding: 20px;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 
@@ -196,18 +194,14 @@
 
 
 .container-100007{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
+    display: block;
+    margin: auto;
 }
 
 .container-100007 img{
     margin-bottom: 20px;
     width: 450px;
     height: 450px;
-    
 }
 .container-100007 >div p{
     text-align: center;
