@@ -21,6 +21,11 @@
         
       }
 
+      function changeServicePhanBon(){
+        window.location.href = "./section3/baobiphanbon.html";
+        
+      }
+
       function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
@@ -55,7 +60,7 @@
                     </button>
                     <div class="dropdown-content001">
                       <a href="./section/tuixop.html">Túi xốp</a>
-                      <a href="#">Bao bì phân bón</a>
+                      <a href="./section3/baobiphanbon.html">Bao bì phân bón</a>
                       <a href="#">Bao bì thực phẩm</a>
                       <a href="./section2/tuizipper.html">Túi zip</a>
                       <a href="#">Bao bì giấy</a>
@@ -134,11 +139,14 @@
                     </div>
                 </div>
                 <div class="card">
-                  <img style="width: 300px; height:500px" src="./assets/item2.jpg" class="item-image">
+                  <a href="./section3/baobiphanbon.html">
+                    <img style="width: 300px; height:500px" src="./assets/item2.jpg" class="item-image">
+                  </a>
+                  
                   <div class="card-content">
                     <h3>Bao bì phân bón</h3>
                     <p>Góp phần quan trọng để tạo ra sản phẩm chất lượng cao, mẫu mã đẹp, giá thành rẻ, tạo nên sự sang trọng cho sản phẩm</p>
-                    <button onclick="changeService()">
+                    <button onclick="changeServicePhanBon()">
                       Chi tiết
                     </button>
                   </div>
