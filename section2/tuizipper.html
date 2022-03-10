@@ -78,7 +78,12 @@
         <div>
           <img src="../assets/zalo.png" alt="">
         </div>
-      </div>
+    </div>
+    <div id="myBtn" onclick="topFunction()">
+        <i class="far fa-angle-up" ></i>
+        <br/>
+        <p >TOP</p>
+    </div>
     <div id="container-100000" class="container-fluid main-container">
         <div id="head-banner" class="row align-items-center">
             <div class="col medium-6 small-12 large-6">
@@ -192,6 +197,27 @@
         buttoncc.addEventListener("mouseleave", function(){
           document.getElementById("dropbtn000001").className = "fa fa-caret-down";
         });
-      </script>
+    </script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>

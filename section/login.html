@@ -70,6 +70,22 @@
     </div>
     <div style="display:flex ; justify-content: center;">
     <div class="login">
+          <div id="contact-fixed">
+            <div>
+              <i class="fab fa-facebook-messenger"></i>
+            </div>
+            <div>
+              <i class="far fa-phone-volume"></i>
+            </div>
+            <div>
+              <img src="../assets/zalo.png" alt="">
+            </div>
+        </div>
+        <div id="myBtn" onclick="topFunction()">
+            <i class="far fa-angle-up" ></i>
+            <br/>
+            <p >TOP</p>
+        </div>
         <h1>Login</h1>
         <form>
             <div class="txt_field">
@@ -113,6 +129,27 @@
       buttoncc.addEventListener("mouseleave", function(){
         document.getElementById("dropbtn000001").className = "fa fa-caret-down";
       });
+    </script>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
 </body>
 </html>

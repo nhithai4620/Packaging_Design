@@ -69,6 +69,22 @@
       </header>
     </div>
     <div class="service-body">
+        <div id="contact-fixed">
+            <div>
+              <i class="fab fa-facebook-messenger"></i>
+            </div>
+            <div>
+              <i class="far fa-phone-volume"></i>
+            </div>
+            <div>
+              <img src="../assets/zalo.png" alt="">
+            </div>
+        </div>
+        <div id="myBtn" onclick="topFunction()">
+            <i class="far fa-angle-up" ></i>
+            <br/>
+            <p >TOP</p>
+        </div>
         <h1>DỊCH VỤ CỦA CHÚNG TÔI</h1>
         <div class="service-item">
             <div class="service-item-image"><img src="../assets/service1.jpg"/></div>
@@ -135,6 +151,27 @@
         buttoncc.addEventListener("mouseleave", function(){
           document.getElementById("dropbtn000001").className = "fa fa-caret-down";
         });
-      </script>
+    </script>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 </body>
 </html>

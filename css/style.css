@@ -640,7 +640,6 @@
 
 #contact-fixed{
     position: absolute;
-    height: 400px;
     width: 100px;
     z-index: 2;
     position: fixed;
@@ -676,6 +675,34 @@
 #contact-fixed img{
     width: 100%;
 }
+
+
+
+#myBtn{
+    background-color: #9c9e9f;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+    position: fixed;
+    right: 2%;
+    bottom: 100px;
+    border-radius: 50%;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+#myBtn i{
+    padding-top: 5px;
+    font-size: 28px;
+    color: black
+}
+
+
+
+
+
 
 @keyframes phonering-alo-circle-img-anim {
     0% {
