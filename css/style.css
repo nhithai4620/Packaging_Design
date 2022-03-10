@@ -286,12 +286,10 @@
 .introduce{
     display: flex;
     width:100%;
-    margin-top: 40px;
     height: 14%;
-    height: 425px;
+    height: 100%;
     flex-direction: row;
-    padding-left: 5%;
-    padding-right: 10%;
+    padding: 30px;
 }
 
 .introduce-content{
@@ -300,14 +298,24 @@
     padding-right: 5%;
 }
 
+
+.introduce-content h5{
+    margin: 20px 0;
+}
+
+.introduce-content a{
+    text-decoration: none;
+}
+
 .introduce-content span{
     color:red;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
 .introduce-content p{
-    font-size: 20px;
+    margin-top: 5px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -317,7 +325,7 @@
     font-family: Cambria;
     padding: 10px;
     margin-top: 20px;
-    padding-bottom: 0;
+    padding-bottom: 20;
 }
 .introduce-content img{
     width: 35%;
@@ -501,6 +509,7 @@
 }
 
 .infor-items{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -508,6 +517,7 @@
 }
 
 .infor-items .item{
+    padding-top: 20px;
     margin: 3px;
     width: 340px;
     min-height: 310px;
@@ -538,6 +548,7 @@
 }
 
 .item img{
+   
     display: block;
     margin-left: auto;
     margin-right: auto;
