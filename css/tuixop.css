@@ -6,7 +6,7 @@
 
 #container-100000{
     background-color: rgba(196, 192, 192, 0.741);
-    padding: 80px;
+    padding: 0 9% ;
 }
 
 #head-banner{
@@ -14,12 +14,13 @@
     width: 100%;
 }
 
+
 .col-inner{
-    padding-left: 70px;
+    padding-left: 10px;
 }
 
 .container-100001{
-    padding: 0 15% ;
+    padding: 0 9% ;
 }
 
 #container-100001 h1{
