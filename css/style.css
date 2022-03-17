@@ -568,7 +568,12 @@
     margin: 50px 20px;
 }
 
-#footer-container-bottom >div p,h3{
+#footer-container-bottom p{
+    color: white;
+    padding-bottom: 25px;
+}
+
+#footer-container-bottom h3{
     color: white;
     padding-bottom: 25px;
 }
