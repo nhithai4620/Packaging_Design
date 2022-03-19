@@ -5,7 +5,7 @@
     background-color:white;
     color: black;
     padding: 164px 0 184px 0;
-    height: 800px;
+    height: 100%;
     font-family: Montserrat;
 }
 
@@ -43,6 +43,107 @@
 .contact-form input[type=submit]:hover {
     background-color: #fff;
     border: 1px solid #eee;
+}
+
+.section-body-info h3{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title-infor{
+    margin-left: 100px;
+}
+
+.section-body-info i{
+    font-size: 30px;
+    color: rgb(42, 42, 123);
+    font-weight: bold;
+}
+
+.section-title-contact{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.section-title-contact b{
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+
+.section-title-contact span{
+    text-align: center;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.section-body-container-100000{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section-body-container-100000 h3{
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.section-body-container-100000 p{
+    font-weight: bold;
+}
+
+.section-body-container-100000 >div{
+    margin: 0 50px;
+}
+
+.section-body-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-body-row div{
+    flex: 30%;
+    padding-bottom: 40px;
+}
+
+#send{
+    margin-left: 15%;
+    flex: 50%
+}
+
+#send-form input{
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 10px;
+}
+
+#send-form button{
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    background-color: greenyellow;
+    border: none;
+}
+
+#map {
+    flex: 50%;
+    height: 500px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+.section-send-map{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 @media (max-width: 750px) {
