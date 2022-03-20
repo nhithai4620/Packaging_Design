@@ -1,0 +1,56 @@
+.hero-container-share{
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.flex-container-share{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 80px 80px;
+    
+}
+
+.flex-container-share >div{
+    margin: 20px 15px;
+    height: 400px;
+    width: 400px;
+}
+
+.flex-container-share img{
+    width: 100%;
+    height: 60%;
+    background-color: aliceblue;
+}
+
+.flex-item-share > h5{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.section-title-contact{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.section-title-contact b{
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+
+.section-title-contact span{
+    text-align: center;
+    margin: 0 15px;
+    font-weight: bold;
+}
