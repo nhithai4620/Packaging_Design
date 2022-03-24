@@ -23,27 +23,6 @@
 .contact-form {
     width: 49%;
 }
-.contact-form input[type=text], .contact-form textarea {
-    width: 65%;
-    background-color: rgba(154, 221, 250,0.5);
-    color: #eee;
-    margin-bottom: 6px;
-    border: 0;
-    padding: 6px;
-}
-.contact-form input[type=submit] {
-    width: 65%;
-    background-color: #eee;
-    border: 1px solid #333;
-    padding: 3px;
-    color: lightcoral;
-    transition: all 0.3s ease-in-out;
-    border-radius: 3px;
-}
-.contact-form input[type=submit]:hover {
-    background-color: #fff;
-    border: 1px solid #eee;
-}
 
 .section-body-info h3{
     font-size: 20px;
@@ -81,7 +60,6 @@
 
 .section-title-contact span{
     text-align: center;
-    margin: 0 15px;
     font-weight: bold;
 }
 
@@ -101,17 +79,18 @@
 }
 
 .section-body-container-100000 >div{
-    margin: 0 50px;
+    margin: 0 10px;
 }
 
 .section-body-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section-body-row div{
     flex: 30%;
     padding-bottom: 40px;
+    margin-left: 30px;
 }
 
 #send{
