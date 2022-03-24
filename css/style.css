@@ -571,11 +571,13 @@
 #footer-container-bottom p{
     color: white;
     padding-bottom: 25px;
+    
 }
 
 #footer-container-bottom h3{
     color: white;
     padding-bottom: 25px;
+    font-weight: bold;
 }
 
 .footer-part-1{
