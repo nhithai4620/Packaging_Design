@@ -33,7 +33,7 @@
 
 .container-100002{
     height: 100%;
-    margin-top: 30px;
+    margin: 0px 15%;
 }
 
 .flex-container{
@@ -93,8 +93,8 @@
 .img {
     background-color: #c2c3cc;
     margin: 20px;
-    height: 280px;
-    width: 250px;
+    height: 300px;
+    width: 270px;
     font-size: 30px;
     color: white;
 }
