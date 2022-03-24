@@ -557,6 +557,29 @@
     padding: 5px;
 }
 
+.section-title-contact{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.section-title-contact b{
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+
+.section-title-contact span{
+    text-align: center;
+    font-weight: bold;
+}
+
 #footer-container-bottom{
     padding: 20px 50px 20px 100px;
     background-color: rgb(0, 82, 132);

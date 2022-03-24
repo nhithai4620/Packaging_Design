@@ -3,7 +3,7 @@ p{
 }
 
 #intro-maincontainer{
-   margin: 30px 17%;
+   margin: 30px 14%;
 }
 
 .intro-section{
@@ -24,4 +24,24 @@ p{
 .intro-section ul,li{
     font-size: 18px;
     margin-top: 10px;
+}
+
+.container-intro-01{
+    display: flex;
+    justify-content: center;
+}
+
+.container-intro-01-img{
+    flex: 50%;
+    padding-right: 20px;
+}
+
+.container-intro-01-content{
+    flex: 50%;
+}
+
+.container-intro-01 img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
