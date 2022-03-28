@@ -440,6 +440,7 @@
     text-align: center;
     padding: 6px 3px 0 3px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .card p{
@@ -461,8 +462,6 @@
     letter-spacing: 2px;
     margin: 15px 0;
     border-radius: 20px;
-    font-weight: bold;
-
 }
 
 .card button:hover{
