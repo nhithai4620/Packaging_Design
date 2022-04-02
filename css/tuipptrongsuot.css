@@ -196,12 +196,13 @@
 .container-100007{
     display: block;
     margin: auto;
+    height: 100%;
 }
 
 .container-100007 img{
     margin-bottom: 20px;
-    width: 450px;
-    height: 450px;
+    width: 30%;
+    height: 30%;
 }
 .container-100007 >div p{
     text-align: center;
