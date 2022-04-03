@@ -320,8 +320,8 @@
 }
 
 #container-100010 div {
-    flex: 30%;
-    height: 450px; 
+    height: 450px;
+    width: 340px; 
     margin: 10px;
     box-shadow: 2px 8px 20px rgb(201, 201, 201);
 }
