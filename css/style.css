@@ -408,7 +408,7 @@
 
 .card{
     min-width:322px;
-    min-height: 400px;
+    min-height: 600px;
     border: 1px solid #eee;
     overflow: hidden;
     padding: 10px;
@@ -438,13 +438,14 @@
 .card h3{
     text-transform: uppercase;
     text-align: center;
-    padding: 6px 3px 0 3px;
+    padding: 6px 3px 0px 3px;
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 3px !important;
 }
 
 .card p{
-    text-align: justify;
+    text-align: justify !important;
     padding: 3px;
     font-size: 20px;
 }
